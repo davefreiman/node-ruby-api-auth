@@ -1,0 +1,37 @@
+{
+  "name": "ruby-api-auth-wrapper",
+  "id": "ruby_api_auth_wrapper",
+  "version": "0.0.1",
+  "description": "Request wrapper for consumers of a ruby api that uses api_auth: https://github.com/mgomes/api_auth",
+  "keywords": [
+    "api",
+    "authentication",
+    "client",
+    "ruby",
+    "api_auth"
+  ],
+  "author": {
+    "name": "David Freiman",
+    "email": "dave@freiman.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davefreiman/node_ruby_api_auth_wrapper.git",
+    "web": "https://github.com/davefreiman/node_ruby_api_auth_wrapper"
+  },
+  "bugs": {
+    "url": "https://github.com/davefreiman/node_ruby_api_auth_wrapper/issues"
+  },
+  "dependencies": {
+    "crypto-js": "3.1.9-1",
+    "moment": "2.18.1",
+    "yargs": "8.0.1",
+    "request": "2.81.0"
+  },
+  "main": "./auth.js",
+  "licenses": [
+    {
+      "type": "GPL 3.0"
+    }
+  ]
+}

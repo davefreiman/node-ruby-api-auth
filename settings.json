@@ -1,0 +1,12 @@
+{
+    "algorithm_labels": {
+        "sha256": "-HMAC-SHA256",
+        "sha1": ""
+    },
+    "api_credentials": {
+        "endpoint": "http://[yourhostname]",
+        "port": "80",
+        "secret": "your_api_secret_key""
+    }
+}
+
